@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+  <body>
+  
+        <nav class="navbar bg-success"></nav>
+
+      <div class="page-header">
+        
+        <img src="new globe.jfif" Class="rounded-circle mx-auto d-block" height="100px" width="150px" alt="Image_earth">
+        <p style="text-align: center;">We belong to environment, environment belongs to us</p>
+              
+      </div>
+      
+      <!--body column 1-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+              <h5 style="font-family: 'Times New Roman', Times, serif; text-align: center;"> Types of Environmental Degradation</h5>
+            <div class="carousel slide" id="demo" data-ride="carousel">
+              <!--slideshow-->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h6>Air Degradation</h6>
+                  <img src="air_degradation.jpg" style="width:100%; height:150px;"class="img" alt="Air Pollution image">
+                  <p>Degradation of atmosphere in form of oxygen deficiency, particle pollution, 
+                    and depletion of ozone layer</p>
+                </div>
+                <div class="carousel-item">
+                  <h6>Land Degradation</h6>
+                  <img src="land_degradation.jfif" style="width:100%; height:150px;" class="img" alt="Land Pollution image">
+                  <p>Deterioration of productive capacity of the land is occuring at an alarming rate. It negatively effects the 
+                    land utility and leads to lower food production.</p>
+                </div>
+                <div class="carousel-item">
+                  <h6>Water Degradation</h6>
+                  <img src="water_degradation.jfif" style="width:100%; height:150px;" class="img" alt="Water Pollution image">
+                  <p>Contamination of rivers, lakes, oceans and other water bodies with harmful substances, making it toxic for
+                    human use and leading to interference in natural functioning of ecosystems.</p>
+                </div>
+              </div>
+              <div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+            </div>
+          </div> 
+
+          <!-- Accordion column 2-->
+          <div class="col-sm-6">
+
+            <h2 style="text-align: center; color: green; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Ways to Save the Environment</h2>
+              <div id="accordion">
+
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                       Plant a tree
+                    </a>
+                  </div>
+                
+                </div>
+                  <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                   <div class="card-body">
+                  <p>
+                  Most effective way to save the environment is by planting the trees.
+                  Trees provide oxygen and help in reducing the global warmging.
+                  Trees could be planted in the yard or support could be provided for organizations 
+                  which plant trees on your behalf.
+                  </p>
+                
+                    </div>
+                  </div>
+          
+
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                     Shared traveling
+                  </a>
+                </div>
+              </div>
+
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <p>
+                Using public transportation and carpools could help with lowering the carbon footprint. 
+                Sharing rides would help in reducing the harmful emissions and it would also enable the person to take the HOV lanes on highways.
+
+              </p>
+              
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                Reusable itmes over single use
+              </a>
+            </div>
+          </div>
+
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+            <p>
+              Another most effective way to make a positive impact on the environment is using reusable items. Even recycling the items leads to cost and carbon footprint.
+              Few reusable items that one could use are: Grocery bags, food storage jars, straws, coffee mugs.
+
+            </p>
+          </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                Reduce paper usage
+              </a>
+            </div>
+          </div>
+
+          <div id="collapseFour" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <p>
+              Using digital platforms for forms, preferring email receipts over paper receipts, printing on both sides of paper will also make a lot of 
+              impact on saving the environment.
+            </p>
+          </div>
+        </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                Save electricity
+              </a>
+            </div>
+          </div>
+
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <p>
+                  Little things can make a lot of difference in saving the electricity. Turn off chargers after full charge, unplug appliances when not in use,
+                  will not only help in saving the environment but will also help to save some money. 
+
+                </p>
+              </div>
+            </div>
+          
+
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#collapseSix">
+                Conserve water
+              </a>
+            </div>
+          
+          </div>
+            <div id="collapseSix" class="collapse" data-parent="#accordion">
+             <div class="card-body">
+            <p>
+              Water conservation has become most essential in today's time. Short showers, using bucket to clean cars, reducing waster water while brushing teeth 
+              are only a few ways which can help in conserving water.
+            </p>
+          
+            </div>
+            </div>
+            
+            <div class="card">
+              <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseSeven">
+                  Helping in waste management
+
+                </a>
+              </div>
+            
+            </div>
+              <div id="collapseSeven" class="collapse" data-parent="#accordion">
+               <div class="card-body">
+              <p>
+                Waste management can start from something as small as sorting the waste properly in compost, recycle and garbage.
+                More ways to reduce ways could include replacing bottled water with reusable water bottles, as not all the plastic gets
+                recycled, reducing the waste of water bottles could make a lot of difference.
+
+              </p>
+            
+              </div>
+              </div>
+            
+              <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseEight">
+                    Volunteer and Educate others
+
+  
+                  </a>
+                </div>
+              
+              </div>
+                <div id="collapseEight" class="collapse" data-parent="#accordion">
+                 <div class="card-body">
+                <p>
+                  Last but not the least, one can volunteer for cleanliness drives in the local community. Educating others about the factors that are leading to environmental degradation
+                  and ways to contribute to save environment could go long way.
+
+                </p>
+              
+                </div>
+                </div>
+    
+            
+
+
+
+             </div>
+      </div>
+
+      <!--column3 -->
+        <div class="col-sm-3">
+          <div class="jumbotron" style="padding-top: 10px;">
+            
+          <h3 style="text-align: center; color: green;"> Support the cause</h3>
+          <p style="text-align: left;">You can make a difference by choosing to volunteer, donate or organising a fundraiser
+            . Following are some of the leading organizations, which are trying to make a difference through various
+            initiatives:
+          </p>
+          <ul style="list-style-type:'✔ '; padding-left: 10px;">
+          <li><a href="https://www.wateraid.org/ca/"> WaterAid.org</a></li>
+          <li><a href="https://forestsontario.ca/en"> Forests Ontario</a></li>
+          <li><a href="https://mindyourplastic.ca/"> Mind Your Plastic&#39;s</a></li>
+          <li><a href="https://environmentaldefence.ca/"> Environmental Defence</a></li>
+          <li><a href="https://wwf.ca/"> World Wildlife Fund Canada</a></li>
+          </ul>
+          </div>
+
+        </div>
+
+      </div>
+      
+    
+      
+  </body>
+</html>
